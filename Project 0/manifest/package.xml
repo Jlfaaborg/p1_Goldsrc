@@ -45,8 +45,12 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Legends_Games</members>
         <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>*</members>
@@ -65,19 +69,27 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Countries</members>
+        <members>ESRB_Ratings</members>
+        <members>Game_Genre</members>
+        <members>Payment_Cards</members>
+        <members>States</members>
         <name>GlobalPicklist</name>
     </types>
     <types>
-        <members>*</members>
-        <name>GlobalPicklistValue</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Countries</members>
+        <members>ESRB_Ratings</members>
+        <members>Game_Genre</members>
+        <members>Payment_Cards</members>
+        <members>States</members>
         <name>GlobalValueSet</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Countries</members>
+        <members>ESRB_Ratings</members>
+        <members>Game_Genre</members>
+        <members>Payment_Cards</members>
+        <members>States</members>
         <name>GlobalValueSetTranslation</name>
     </types>
     <types>
@@ -113,19 +125,14 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
-        <members>*</members>
+        <members>A Developer</members>
+        <members>A Gamer</members>
+        <members>A Employee</members>
+        <members>A Manager</members>
         <name>Profile</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ProfilePasswordPolicy</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ProfileSessionSetting</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Game_Order_Approvers</members>
         <name>Queue</name>
     </types>
     <types>
@@ -135,10 +142,6 @@
     <types>
         <members>*</members>
         <name>Role</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Settings</name>
     </types>
     <types>
         <members>*</members>
