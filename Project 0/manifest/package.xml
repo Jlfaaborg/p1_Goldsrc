@@ -37,14 +37,6 @@
         <name>ApprovalProcess</name>
     </types>
     <types>
-        <members>*</members>
-        <name>AssignmentRules</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AutoResponseRules</name>
-    </types>
-    <types>
         <members>Legends_Games</members>
         <name>CustomApplication</name>
     </types>
@@ -62,7 +54,15 @@
     </types>
     <types>
         <members>*</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AutoResponseRules</name>
     </types>
     <types>
         <members>*</members>
@@ -117,6 +117,7 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
+        <members>Admin</members>
         <members>A Developer</members>
         <members>A Gamer</members>
         <members>A Employee</members>
