@@ -9,7 +9,7 @@
                 <operation>equals</operation>
                 <value>New</value>
             </criteriaItems>
-            <senderEmail>matthew.hennig@revature.net</senderEmail><!--CHANGE TO YOUR EMAIL-->
+            <senderEmail>matthew.hennig@revature.net</senderEmail>
             <senderName>Legend&apos;s Games</senderName>
             <template>unfiled$public/SupportCaseCreatedWebInquiries</template>
         </ruleEntry>

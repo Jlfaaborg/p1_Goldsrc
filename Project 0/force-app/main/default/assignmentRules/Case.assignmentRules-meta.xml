@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>matthew.hennig@creative-goat-iur2xp.com</assignedTo><!-- Change to your sign in-->
+            <assignedTo>matthew.hennig@creative-goat-iur2xp.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +23,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>matthew.hennig@creative-goat-iur2xp.com</assignedTo> <!-- Change to your sign in-->
+            <assignedTo>matthew.hennig@creative-goat-iur2xp.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +42,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>matthew.hennig@creative-goat-iur2xp.com</assignedTo><!-- Change to your sign in-->
+            <assignedTo>matthew.hennig@creative-goat-iur2xp.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
