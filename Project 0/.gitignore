@@ -36,3 +36,10 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# rule files that have personal login info
+
+force-app/main/default/autoResponseRules/
+force-app/main/default/assignmentRules/
+force-app/main/default/assignmentRules/
+force-app/main/default/escalationRules/
