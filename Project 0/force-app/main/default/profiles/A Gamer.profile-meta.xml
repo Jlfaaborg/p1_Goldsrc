@@ -10,11 +10,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ExRESTCalloutMock</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>GameDisplayForDevelopers</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -319,16 +314,6 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
-        <apexPage>DeveloperPageForGames</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>GameReviewsSearch</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>testing</apexPage>
-        <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
         <tab>Game_Account__c</tab>
