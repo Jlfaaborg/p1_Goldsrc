@@ -1,4 +1,5 @@
-<apex:page controller="GamerGamesController" >  
+<apex:page controller="GamerGamesController" lightningStylesheets="true">
+    <apex:slds />
     <apex:pageBlock >
     <!--Display Table of Games-->
         <apex:pageBlockTable value="{!gamerGames}" var="gg">

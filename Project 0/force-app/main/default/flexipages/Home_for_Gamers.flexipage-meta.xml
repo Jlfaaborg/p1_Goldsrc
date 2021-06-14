@@ -47,38 +47,43 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showLabel</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:visualforcePage</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>left</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Account&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>enableInlineEdit</name>
-                    <value>true</value>
+                    <name>height</name>
+                    <value>300</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>entityName</name>
-                    <value>My_Games__c</value>
+                    <name>pageName</name>
+                    <value>GamerAccountInfo</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>filterName</name>
-                    <value>All</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideActionBar</name>
+                    <name>showLabel</name>
                     <value>false</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideSearchBar</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageSize</name>
-                    <value>3</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:filterListCard</componentName>
+                <componentName>flexipage:visualforcePage</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -123,87 +128,10 @@
                 <componentName>flexipage:filterListCard</componentName>
             </componentInstance>
         </itemInstances>
-        <name>left</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>decorate</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>richTextValue</name>
-                    <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Friend Requests&lt;/u&gt;﻿&lt;/b&gt;&lt;/p&gt;</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:richText</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>runtime_approval_process:pendingApprovalCard</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>flowLayout</name>
-                    <value>oneColumn</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>flowName</name>
-                    <value>setup_service_experience__Create_Case</value>
-                </componentInstanceProperties>
-                <componentName>flowruntime:interview</componentName>
-            </componentInstance>
-        </itemInstances>
         <name>middle</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>decorate</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>richTextValue</name>
-                    <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Account&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:richText</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>enableInlineEdit</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>entityName</name>
-                    <value>Game_Account__c</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>filterName</name>
-                    <value>All</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideSearchBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageSize</name>
-                    <value>1</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:filterListCard</componentName>
-            </componentInstance>
-        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -244,6 +172,24 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Friend Requests&lt;/u&gt;﻿&lt;/b&gt;&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>runtime_approval_process:pendingApprovalCard</componentName>
             </componentInstance>
         </itemInstances>
         <name>right</name>
