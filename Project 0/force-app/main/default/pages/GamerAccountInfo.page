@@ -1,7 +1,8 @@
 <apex:page controller="GamerAccountInfoController" >  
     <apex:pageBlock >
     <!--Display Table of Games-->
-        <apex:pageBlockTable value="{!acct}" var="acct">
+        <apex:repeat value="{!account}" var="accts">
+        <apex:pageBlockTable value="{!accts}" var="acct">
             <apex:column headerValue="Account">
                 <apex:outputLink value="/{!acct}">{!acct}</apex:outputLink>
             </apex:column>
@@ -10,5 +11,6 @@
             <apex:column headerValue="Address">{!acct.Address_1__c}</apex:column>
             <apex:column headerValue="DOB">{!acct.Date_Of_Birth__c}</apex:column>
         </apex:pageBlockTable>
+            </apex:repeat>
     </apex:pageBlock>
 </apex:page>
