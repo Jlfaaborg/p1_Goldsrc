@@ -10,11 +10,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>GamerGamesController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderGame</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RawgCallout</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RawgCallouts</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -23,6 +30,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>addGameReview</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>restEx</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -237,31 +248,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Game_Account__c-GameAccount Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Cart__c-Cart Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Friend__c-Friend Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Orders__c-Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Payment__c-Payment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Refunds__c-Game Rufund Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Reviews__c-Rating Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Game__c-Game Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>My_Games__c-Game Library Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -327,8 +314,6 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
-        <apexPage>GamerPage</apexPage>
-        <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>
         <tab>Game_Account__c</tab>
@@ -356,6 +341,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>My_Games__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>View_Games</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
