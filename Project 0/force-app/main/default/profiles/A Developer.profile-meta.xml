@@ -18,6 +18,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>GameSearchController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>GamerAccountInfoController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -153,6 +157,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Game_Payment__c.Game_Payment_Look_Up__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Reviews__c.Game__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -330,6 +339,10 @@
     <pageAccesses>
         <apexPage>GameReviewsSearch</apexPage>
         <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>GameSearchPage</apexPage>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>GamerAccountInfo</apexPage>

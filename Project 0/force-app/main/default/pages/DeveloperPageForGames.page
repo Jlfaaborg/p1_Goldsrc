@@ -15,9 +15,10 @@
             <apex:commandButton value="Search reviews" action="{!searchReviews}"/>
             <apex:commandButton value="Clear reviews" action="{!clear}"/>
         </div>
-        
+        <br/>
         <apex:pageBlock title="Game Reviews" id="display">
             <apex:pageBlockTable value="{!gameReviews}" var="reviews">
+                <apex:column HeaderValue="Review Title" value="{!reviews.Name}"/>
                 <apex:column HeaderValue="Review" value="{!reviews.Review__c}"/>
                 <apex:column HeaderValue="Stars Given" value="{!reviews.User_Star_Rating__c}"/>
             </apex:pageBlockTable>

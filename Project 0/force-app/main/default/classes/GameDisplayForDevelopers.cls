@@ -14,8 +14,8 @@ public class GameDisplayForDevelopers {
     
     public void searchReviews(){
         
-        this.gameReviews = [SELECT CreatedById, Review__c, User_Star_Rating__c FROM Game_Reviews__c
-                            WHERE Name =: this.userInput];
+        this.gameReviews = [SELECT Name, Game__c,CreatedById, Review__c, User_Star_Rating__c FROM Game_Reviews__c
+                            WHERE Game__c =: this.userInput];
     }
     
     public void clear(){
