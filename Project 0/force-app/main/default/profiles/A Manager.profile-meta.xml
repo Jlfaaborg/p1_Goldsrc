@@ -6,14 +6,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>EmailManager</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ExRESTCalloutMock</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>GameDisplayForDevelopers</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -34,25 +26,9 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>RawgCallout</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>RawgCallouts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestClass</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>addGameReview</apexClass>
         <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>restEx</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    </classAccesses>>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>

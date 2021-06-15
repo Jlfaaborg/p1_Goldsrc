@@ -4,15 +4,7 @@
         <application>Legends_Games</application>
         <default>true</default>
         <visible>true</visible>
-    </applicationVisibilities>
-    <classAccesses>
-        <apexClass>EmailManager</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ExRESTCalloutMock</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    </applicationVisibilities>>
     <classAccesses>
         <apexClass>GameDisplayForDevelopers</apexClass>
         <enabled>true</enabled>
@@ -34,23 +26,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>RawgCallout</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>RawgCallouts</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestClass</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>addGameReview</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>restEx</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
