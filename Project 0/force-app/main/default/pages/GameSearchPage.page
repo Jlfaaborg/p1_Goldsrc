@@ -13,7 +13,7 @@
             <apex:pageBlockTable value="{!gameList}" var="mainList">
                 <apex:column headerValue="Game Title">
                     <apex:outputLink value="/{!mainList}">{!mainList.Name}</apex:outputLink>
-            	</apex:column>
+                </apex:column>
                 <!--<apex:column headerValue="Game Title" value="{!mainList.Name}"/>-->
                 <apex:column headerValue="Genre" value="{!mainList.Genre__c}"/>
                 <apex:column headerValue="ESRB" value="{!mainList.ESRB_Rating__c}"/>
