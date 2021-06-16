@@ -107,6 +107,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Game_Reviews__c.Game__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Game_Reviews__c.Gamer__c</field>
         <readable>false</readable>
     </fieldPermissions>

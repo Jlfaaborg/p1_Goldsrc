@@ -98,10 +98,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>InstalledPackage</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>LightningBolt</name>
     </types>
     <types>

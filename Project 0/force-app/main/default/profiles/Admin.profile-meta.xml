@@ -2,19 +2,43 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Legends_Games</application>
-        <default>false</default>
+        <default>true</default>
         <visible>true</visible>
-    </applicationVisibilities>
+    </applicationVisibilities>>
     <classAccesses>
-        <apexClass>EmailManager</apexClass>
+        <apexClass>GameDisplayForDevelopers</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+<<<<<<< Updated upstream
+        <apexClass>GameSearchController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>GamerAccountInfoController</apexClass>
+=======
+        <apexClass>GamerAccountInfoController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>GamerAccountInfoControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>GamerGamesController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderGame</apexClass>
+>>>>>>> Stashed changes
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>TestClass</apexClass>
+        <apexClass>GamerGamesController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OrderGame</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -23,64 +47,64 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.About_ME__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.Address_1__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.Address_2__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.City__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.Country__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.First_Name__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Game_Account__c.Game_Account_Number__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.Last_Name__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.My_Game__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.Phone_Number__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.State__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Account__c.Zip_Code__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -93,171 +117,155 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Friend__c.Nickname__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Orders__c.Order_Date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Game_Orders__c.Order_Price__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Orders__c.Quantity__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Orders__c.Refund_Order__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Orders__c.Status__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Payment__c.Game_Payment_Look_Up__c</field>
+        <readable>false</readable>
+<<<<<<< Updated upstream
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Game_Payment__c.Game_Payment_Look_Up__c</field>
+        <field>Game_Reviews__c.Game__c</field>
         <readable>true</readable>
+=======
+>>>>>>> Stashed changes
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Game_Reviews__c.Gamer__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Reviews__c.My_Game__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game_Reviews__c.Reviewer__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.DeveloperAccount__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.ESRB_Rating__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Game__c.GameID__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.Game_Approval__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.Game_Description__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.Game_Lookup__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.Game_User_Rating_LU__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Game__c.Game_User_Rating__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.Games__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Game__c.Price__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>My_Games__c.Developer__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>My_Games__c.ESRB_Rating__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>My_Games__c.Game_Description__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>My_Games__c.Game_Ratings__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>My_Games__c.Game__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>My_Games__c.My_Game__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>My_Games__c.Publisher__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>My_Games__c.Release_Date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Game_Account__c-GameAccount Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Cart__c-Cart Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Friend__c-Friend Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Orders__c-Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Payment__c-Payment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Refunds__c-Game Rufund Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Game_Reviews__c-Rating Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Game__c-Game Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>My_Games__c-Game Library Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -340,6 +348,37 @@
         <object>My_Games__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+<<<<<<< Updated upstream
+        <apexPage>DeveloperPageForGames</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>GameReviewsSearch</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>GameSearchPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+=======
+>>>>>>> Stashed changes
+        <apexPage>GamerAccountInfo</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>GamerPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+<<<<<<< Updated upstream
+        <apexPage>testing</apexPage>
+=======
+        <apexPage>My_First_Page</apexPage>
+>>>>>>> Stashed changes
+        <enabled>true</enabled>
+    </pageAccesses>
     <tabVisibilities>
         <tab>Game_Account__c</tab>
         <visibility>DefaultOn</visibility>
@@ -366,9 +405,20 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>My_Games__c</tab>
-        <visibility>DefaultOff</visibility>
+        <visibility>DefaultOn</visibility>
+<<<<<<< Updated upstream
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>View_Games</tab>
+        <visibility>Hidden</visibility>
+=======
+>>>>>>> Stashed changes
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AIViewInsightObjects</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
@@ -508,6 +558,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateWorkBadgeDefinition</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -691,10 +745,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageClearbitIntegration</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageContentPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -847,15 +897,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageTranslation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageUnlistedGroups</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageZapierIntegration</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -988,11 +1038,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>TransferAnyLead</name>
-    </userPermissions>
-
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>UseReturnOrderAPIs</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

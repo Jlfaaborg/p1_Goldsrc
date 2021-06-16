@@ -125,6 +125,12 @@
         <default>false</default>
         <label>Strategy</label>
     </customValue>
+    <customValue>
+        <fullName>Puzzlers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Puzzlers</label>
+    </customValue>
     <masterLabel>Game Genre</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
