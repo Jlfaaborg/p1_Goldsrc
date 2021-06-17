@@ -172,6 +172,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Game__c.Genre__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Game__c.Price__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -24,5 +24,22 @@
             </apex:pageBlockTable>
         </apex:pageBlock>
         
+        <apex:pageBlock title="Add new game">
+            <apex:pageBlockSection >
+                <apex:inputField value="{!newGame.Name}" label="Game Title"/>
+                <apex:inputField value="{!newGame.Developer__c}" label="Developer"/>
+                <apex:inputField value="{!newGame.ESRB_Rating__c}" label="ESRB Rating"/>
+                <apex:inputField value="{!newGame.Game_Description__c}" label="Game Description"/>
+                <apex:inputField value="{!newGame.Release_Date__c}" label="Release Date"/>
+                <apex:inputField value="{!newGame.Publisher__c}" label="Publisher"/>
+                <apex:inputField value="{!newGame.Price__c}" label="Price"/>
+              <!--   <apex:inputField value="{!newGame.genre__c}" label="Genre"/> -->
+                
+            </apex:pageBlockSection>
+            <div class="slds-align_absolute-center">
+               <apex:commandButton value="Save Game" action="{!saveGame}"/>
+            </div>
+        </apex:pageBlock>
+        
     </apex:form>
 </apex:page>

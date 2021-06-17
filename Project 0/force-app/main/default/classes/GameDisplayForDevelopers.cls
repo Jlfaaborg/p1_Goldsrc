@@ -1,10 +1,12 @@
 public class GameDisplayForDevelopers {
     
+    public Game__c newGame {get; set;}
     public List<Game__c> games {get; set;}
     public List<Game_Reviews__c> gameReviews {get; set;}
     public String userInput {get; set;}
     
     public GameDisplayForDevelopers(){
+        this.newGame = new Game__c();
         this.games = new List<Game__c>();
         this.games = [SELECT Name, Genre__c, Developer__c, CreatedById FROM Game__c
                       WHERE CreatedById =: UserInfo.getUserId()];
@@ -20,5 +22,16 @@ public class GameDisplayForDevelopers {
     
     public void clear(){
         this.gameReviews.clear();
+    }
+    
+    public void saveGame(){
+        
+        try{
+            insert newGame;
+        }
+        catch(DmlException e){
+            system.debug(e);
+            
+        }
     }
 }

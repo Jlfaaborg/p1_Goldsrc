@@ -46,6 +46,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DeveloperVFpageTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EmailManager</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -318,6 +322,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Game__c.Games__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game__c.Genre__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
