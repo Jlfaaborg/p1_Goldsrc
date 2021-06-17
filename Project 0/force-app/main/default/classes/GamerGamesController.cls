@@ -9,10 +9,12 @@ public class GamerGamesController
     public GamerGamesController()
     {
         //setting gamer equal to the current user
-        gamer = [SELECT Id, Name, CreatedById  FROM Game_Account__c WHERE  OwnerId= :UserInfo.getUserID() ];
+        gamer = [SELECT Id, Name, CreatedById  FROM Game_Account__c WHERE  CreatedById =: UserInfo.getUserId() ];
         
         //setting gamerGames list to the games owned by gamer
         gamerGames = [SELECT Name,Game_Description__c, Developer__c,Publisher__c FROM My_Games__c WHERE Game_Account__c =: gamer.id];
         
     }
+
+
 }
