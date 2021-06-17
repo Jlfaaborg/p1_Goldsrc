@@ -1,6 +1,6 @@
 public class GamerAccountInfoController {
 
-    public List<Game_Account__c> account {get; set;} //create Game_account__c
+    public Game_Account__c account {get; set;} //create Game_account__c
        
     public GamerAccountInfoController()
     {

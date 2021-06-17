@@ -15,8 +15,4 @@ public class GamerGamesController
         gamerGames = [SELECT Name,Game_Description__c, Developer__c,Publisher__c FROM My_Games__c WHERE Game_Account__c =: gamer.id];
         
     }
-    
-
-
-
 }
