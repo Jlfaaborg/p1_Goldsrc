@@ -8,7 +8,8 @@ public class GamerAccountInfoController {
         account = [SELECT Id, Name, About_ME__c, Address_1__c, Date_Of_Birth__c FROM Game_Account__c WHERE CreatedById =: UserInfo.getUserId() Limit:1];
     
     }
-    
+	
+	//update the account with fields of visualforce page    
     public void save() {
         try {
             update account;

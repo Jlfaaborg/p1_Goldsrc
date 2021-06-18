@@ -4,12 +4,12 @@
     <allowMembersToFlag>false</allowMembersToFlag>
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
     <communityRoles/>
-    <disableReputationRecordConversations>true</disableReputationRecordConversations>
-    <emailSenderAddress>matthew.hennig@revature.net</emailSenderAddress>
+    <disableReputationRecordConversations>false</disableReputationRecordConversations>
+    <emailSenderAddress>jlfaaborg@gmail.com</emailSenderAddress>
     <emailSenderName>Legends Games</emailSenderName>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
-    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestChatter>true</enableGuestChatter>
     <enableGuestFileAccess>false</enableGuestFileAccess>
     <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
     <enableInvitation>false</enableInvitation>
@@ -45,5 +45,6 @@
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
+    <urlPathPrefix>LegendGames</urlPathPrefix>
     <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
 </Network>
