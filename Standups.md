@@ -13,3 +13,6 @@ Developer Page - Conner <br>
 Game Store Page - Edwin <br>
 Account Info Page - Josh <br>
 My Games Page - Matthew <br>
+
+## 6/18/21
+Finished With Project 1 and presenting. Working on deploying Project 2 to start aura page
